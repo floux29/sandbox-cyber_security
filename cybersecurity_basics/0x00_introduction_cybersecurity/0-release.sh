@@ -1,3 +1,2 @@
 #!/bin/bash
-function rel { return "$(lsb_release -a | grep -i 'distributor ID' | sed -ne 's/.*\:\s*\(.*\)/\1/p')" }
-
+printf $(lsb_release -a | grep -i 'distributor ID' | sed -ne 's/.*\:\s*\(.*\)/\1/p')
