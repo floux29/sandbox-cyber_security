@@ -1,2 +1,2 @@
-#!/bin/bash
-< /dev/urandom tr -dc '[:alnum:]' | fold -w ${BASH_ARGV[0]} | head -n1
+#!/bin/bash -e
+< /dev/urandom tr -dc '[:alnum:]' | fold -w $1 | head -n1
