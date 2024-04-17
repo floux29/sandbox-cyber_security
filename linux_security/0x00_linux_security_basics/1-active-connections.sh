@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netstat -nap -t tcp
+sudo ss -napt
