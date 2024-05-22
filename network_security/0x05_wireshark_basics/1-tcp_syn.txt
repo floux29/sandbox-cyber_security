@@ -1,1 +1,1 @@
-ip.proto == "TCP" & 0x02
+tcp.falgs.syn == 1
