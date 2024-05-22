@@ -1,0 +1,1 @@
+ip.proto == "TCP" & 0x02
