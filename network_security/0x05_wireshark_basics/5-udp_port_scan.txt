@@ -1,1 +1,1 @@
-ip.proto == "UDP"
+icmp.type == 3
