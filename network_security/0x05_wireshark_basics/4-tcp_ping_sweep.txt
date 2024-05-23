@@ -1,1 +1,1 @@
-tcp.flags in {0x002,0x010,0x012}
+tcp.flags.syn == 1 or tcp.flags.ack == 1
